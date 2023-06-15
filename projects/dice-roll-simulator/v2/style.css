@@ -15,3 +15,18 @@ h1 {
     animation-duration: 1s;
     animation-fill-mode: forwards;
 }
+
+#roll-dice {
+    background-color: #47a5c4;
+    color: white;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#roll-dice:hover {
+    background-color: #2e8baf;
+}
