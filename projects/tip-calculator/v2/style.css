@@ -2,7 +2,7 @@ body {
     margin: 0;
     background-color: #f7f7f7;
     padding: 20px;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Helvetica", sans-serif;
 }
 
 #container {
@@ -19,4 +19,28 @@ h1 {
     text-align: center;
     margin-top: 0;
     margin-bottom: 20px;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+}
+
+input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 10px 0;
+    width: 100%;
+    font-size: 18px;
+    text-transform: uppercase;
 }
