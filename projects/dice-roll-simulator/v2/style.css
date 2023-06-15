@@ -8,3 +8,10 @@ h1 {
     font-size: 3rem;
     margin-top: 2rem;
 }
+
+#dice {
+    font-size: 7rem;
+    margin: 5px;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+}
